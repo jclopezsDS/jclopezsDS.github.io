@@ -1,57 +1,59 @@
-# Welcome to My Data Science Portfolio
+# Julián Camilo López Sánchez - Data Scientist
 
-This repository contains my professional data science portfolio, showcasing my projects, skills, and accomplishments in machine learning, data analysis, and data visualization. Below you'll find descriptions of each project, as well as instructions on how to explore and interact with them.
-
-## Table of Contents
-- [About Me](#about-me)
-- [Projects](#projects)
-- [Technologies Used](#technologies-used)
-- [How to Run the Projects](#how-to-run-the-projects)
-- [Contact Information](#contact-information)
+Welcome to my GitHub profile! I am a data scientist with a strong background in real estate and finance. I specialize in machine learning, data analysis, and data visualization. Here, you'll find a collection of my projects, skills, and accomplishments.
 
 ## About Me
-I am a data scientist passionate about using data to solve complex problems. My work covers multiple domains, such as real estate, finance, and social security, where I apply machine learning, statistical analysis, and data visualization to provide insights and drive decisions.
+I am passionate about leveraging data to solve complex problems and drive decision-making. With a background in civil engineering and a deep interest in finance, I bring a unique perspective to data science. My work spans various domains, including real estate, finance, and social security.
 
-## Projects
-Here are some of the key projects included in this portfolio:
-
-### Project 1: Predicting Real Estate Prices
-- **Description**: A machine learning model that predicts housing prices based on various features like location, size, and amenities.
+## Featured Projects
+### Real Estate Price Prediction
+- **Description**: Developed a machine learning model to predict housing prices based on features such as location, size, and amenities.
 - **Tools**: Python, scikit-learn, pandas.
 - **Interactive Notebook**: [Launch on Binder](https://mybinder.org/v2/gh/jclopezsDS/jclopezsDS.github.io/branch)
 
-### Project 2: Customer Segmentation Using Clustering
-- **Description**: An unsupervised learning approach to group customers based on purchasing behavior.
+### Customer Segmentation Using Clustering
+- **Description**: Implemented an unsupervised learning approach to group customers based on purchasing behavior.
 - **Tools**: Python, scikit-learn, seaborn.
 - **Interactive Notebook**: [Launch on Binder](https://mybinder.org/v2/gh/jclopezsDS/jclopezsDS.github.io/branch)
 
 *More projects coming soon...*
 
-## Technologies Used
-- **Languages**: Python, SQL, R
-- **Libraries**: pandas, NumPy, scikit-learn, TensorFlow, PyTorch, matplotlib
+## Skills
+- **Languages**: Python, JavaScript, Visual Basic, SQL, R
+- **Libraries**: pandas, NumPy, scikit-learn, TensorFlow, PyTorch, matplotlib, seaborn, Plotly, Dash
 - **DevOps**: Git, GitHub Actions, Binder, Docker
-- **Data Visualization**: Power BI, Plotly, Dash
-- **Machine Learning**: Supervised and unsupervised learning, deep learning, time series
+- **Data Visualization**: Power BI, Tableau
+- **Machine Learning**: Supervised and unsupervised learning, deep learning, time series analysis
 
 ## How to Run the Projects
 
 ### Clone the Repository
 Clone the repository using the following command:
 
-
 bash
 git clone https://github.com/jclopezsDS/jclopezsDS.github.io.git
 
+
 ### Install Dependencies
 Install the necessary libraries using the requirements file:
+
+bash
+pip install -r requirements.txt
 
 
 ### Interactive Notebooks
 Launch any notebook in the repository using Binder by clicking the "Launch Binder" button in the project description or from the links provided.
 
 ## Contact Information
-If you'd like to collaborate or have any questions, feel free to reach out via:
+I am always open to collaboration and new opportunities. Feel free to reach out to me through the following channels:
 
-- **Email**: jclopezs@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **Email**: [jclopezs@uniandes.edu.co](mailto:jclopezs@uniandes.edu.co)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- **Kaggle**: [Your Kaggle Profile](https://www.kaggle.com/your-profile)
+
+## Let's Connect!
+I am passionate about data science and always eager to connect with like-minded professionals. Let's collaborate and create something amazing together!
+
+---
+
+*“Data is the new oil.” – Clive Humby*
