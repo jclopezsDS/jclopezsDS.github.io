@@ -1,3 +1,19 @@
-title: My Portfolio
-description: A portfolio to showcase my projects.
-theme: minima
+title: Julián Camilo López Sánchez - Data Scientist
+description: A professional portfolio showcasing my expertise in data science, real estate, and finance.
+theme: jekyll-theme-slate
+
+# Personalización del tema
+# Puedes elegir un tema que refleje más tu estilo. Aquí hay algunas opciones:
+# - minima
+# - jekyll-theme-slate
+# - jekyll-theme-cayman
+# - jekyll-theme-hacker
+
+# Configuración adicional
+author: Julián Camilo López Sánchez
+email: jclopezs@uniandes.edu.co
+social:
+  - icon: "fab fa-linkedin"
+    link: "https://www.linkedin.com/in/your-profile"
+  - icon: "fab fa-kaggle"
+    link: "https://www.kaggle.com/your-profile"
