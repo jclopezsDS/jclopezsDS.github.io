@@ -1,13 +1,6 @@
 title: Julián López - Data Scientist
 description: A professional portfolio showcasing my expertise in data science, real estate, and finance.
-theme: jekyll-theme-hacker
-
-# Personalización del tema
-# Puedes elegir un tema que refleje más tu estilo. Aquí hay algunas opciones:
-# - minima
-# - jekyll-theme-slate
-# - jekyll-theme-cayman
-# - jekyll-theme-hacker
+theme: Architect
 
 # Configuración adicional
 author: Julián Camilo López Sánchez
