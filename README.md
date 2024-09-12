@@ -1,4 +1,4 @@
-# Julián Camilo López Sánchez - Data Scientist
+# Julián López - Data Scientist
 
 Welcome to my GitHub profile! I am a data scientist with a strong background in real estate and finance. I specialize in machine learning, data analysis, and data visualization. Here, you'll find a collection of my projects, skills, and accomplishments.
 
