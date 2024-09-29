@@ -35,6 +35,78 @@ layout: default  # This indicates it will use the default layout
     <p>I am a data scientist specializing in real estate and finance. Explore my projects and skills below.</p>
 
     <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Transforming SEC Filings into Actionable Insights with Neo4j and LangChain</h3>
+    
+        <p><strong>Project Overview:</strong></p>
+        <p>
+            Developed an innovative retrieval-augmented generation system that converts unstructured financial data from the SEC's EDGAR database into a structured, queryable knowledge graph. Leveraging advanced natural language processing and graph database technologies, this project enhances financial analysis and streamlines regulatory compliance monitoring.
+        </p>
+    
+        <p><strong>Project Highlights:</strong></p>
+        <ul>
+            <li>
+                <strong>Data Processing & Embedding:</strong>
+                Processed and segmented raw text from JSON and CSV documents, applying OpenAI embeddings for semantic analysis.
+            </li>
+            <li>
+                <strong>Knowledge Graph Construction:</strong>
+                Built a comprehensive knowledge graph in Neo4j, representing financial entities and their interrelationships.
+            </li>
+            <li>
+                <strong>Advanced Retrieval Techniques:</strong>
+                Implemented similarity searches and complex queries, enabling context-aware information retrieval.
+            </li>
+            <li>
+                <strong>Enhanced Question Answering:</strong>
+                Developed a retrieval-augmented question-answering pipeline using LangChain, improving response accuracy and relevance.
+            </li>
+            <li>
+                <strong>Graph Augmentation:</strong>
+                Incorporated geographic and investor information to enrich the knowledge graph, enhancing the depth and performance of data retrieval.
+            </li>
+        </ul>
+    
+        <p><strong>Impact:</strong></p>
+        <ul>
+            <li>
+                <strong>Empowered Financial Analysts:</strong>
+                Enabled deeper insights into company filings and investor behaviors, facilitating better decisions.
+            </li>
+            <li>
+                <strong>Streamlined Compliance Monitoring:</strong>
+                Improved accessibility and analyzability of SEC filings, aiding in early detection of compliance issues.
+            </li>
+        </ul>
+    
+        <p><strong>Technologies & Skills:</strong> Python, LangChain, Neo4j, OpenAI API, Natural Language Processing, Data Modeling, Graph Databases.</p>
+    
+        <p><strong>Project Artifacts:</strong> Explore the detailed project notebooks:</p>
+        <ul>
+            <li>
+                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGFromRawText.ipynb">
+                    Retrieval-Augmented Generation from Raw Text
+                </a>
+            </li>
+            <li>
+                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithWindowRetriever.ipynb">
+                    Introduced links between nodes, utilizing a context window to enhance retrieval queries.
+                </a>
+            </li>
+            <li>
+                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithInvestorsInformation.ipynb">
+                    Added investor data to enrich the knowledge graph.
+                </a>
+            </li>
+            <li>
+                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithFullInformation.ipynb">
+                    Expanded the graph by incorporating geographical information of companies and investors to provide deeper insights.
+                </a>
+            </li>
+        </ul>
+    </div>
+    
     <div class="project">
         <h3>Multi AI Agent Systems with crewAI</h3>
         <p><strong>Description:</strong> Developed a multi-agent system using crewAI to automate complex business processes, enhancing efficiency through collaboration among AI agents.</p>
