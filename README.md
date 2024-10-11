@@ -1,59 +1,80 @@
 # Julián López - Data Scientist
 
-Welcome to my GitHub profile! I am a data scientist with a strong background in real estate and finance. I specialize in machine learning, data analysis, and data visualization. Here, you'll find a collection of my projects, skills, and accomplishments.
+![Banner](https://github.com/jclopezsDS/jclopezsDS.github.io/blob/main/assets/banner.gif?raw=true)
 
-## About Me
-I am passionate about leveraging data to solve complex problems and drive decision-making. With a background in civil engineering and a deep interest in finance, I bring a unique perspective to data science. My work spans various domains, including real estate, finance, and social security.
+Welcome to my GitHub profile! I am a data scientist specializing in **Data Science** and **Artificial Intelligence** applications within the **Real Estate** and **Finance** sectors, mainly. Explore my projects, skills, and accomplishments below, and visit my [Project Portfolio](https://jclopezsds.github.io/) for a comprehensive showcase.
 
-## Featured Projects
-### Real Estate Price Prediction
-- **Description**: Developed a machine learning model to predict housing prices based on features such as location, size, and amenities.
-- **Tools**: Python, scikit-learn, pandas.
-- **Interactive Notebook**: [Launch on Binder](https://mybinder.org/v2/gh/jclopezsDS/jclopezsDS.github.io/branch)
+---
 
-### Customer Segmentation Using Clustering
-- **Description**: Implemented an unsupervised learning approach to group customers based on purchasing behavior.
-- **Tools**: Python, scikit-learn, seaborn.
-- **Interactive Notebook**: [Launch on Binder](https://mybinder.org/v2/gh/jclopezsDS/jclopezsDS.github.io/branch)
+## 👤 About Me
 
-*More projects coming soon...*
+I am passionate about leveraging data to solve complex problems and drive strategic decision-making. With background in engineering and a deep interest in finance, I bring a unique perspective to data science. My work focuses on applying machine learning and AI techniques to real estate and financial data to uncover actionable insights and build predictive models.
 
-## Skills
-- **Languages**: Python, JavaScript, Visual Basic, SQL, R
-- **Libraries**: pandas, NumPy, scikit-learn, TensorFlow, PyTorch, matplotlib, seaborn, Plotly, Dash
-- **DevOps**: Git, GitHub Actions, Binder, Docker
-- **Data Visualization**: Power BI, Tableau
-- **Machine Learning**: Supervised and unsupervised learning, deep learning, time series analysis
+---
 
-## How to Run the Projects
+## 🛠️ Skills
 
-### Clone the Repository
-Clone the repository using the following command:
+### **Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![Visual Basic](https://img.shields.io/badge/Visual%20Basic-15A34F?style=flat&logo=visual-basic&logoColor=white)
 
-bash
-git clone https://github.com/jclopezsDS/jclopezsDS.github.io.git
+### **Libraries & Frameworks**
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-253858?style=flat&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-2C3E50?style=flat&logo=seaborn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-495E57?style=flat&logo=plotly&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-008DD5?style=flat&logo=dash&logoColor=white)
 
+### **DevOps & Tools**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![Binder](https://img.shields.io/badge/Binder-663399?style=flat&logo=binder&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-### Install Dependencies
-Install the necessary libraries using the requirements file:
+### **Data Visualization**
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 
-bash
-pip install -r requirements.txt
+### **Machine Learning**
+- Supervised and Unsupervised Learning
+- Deep Learning
 
+---
 
-### Interactive Notebooks
-Launch any notebook in the repository using Binder by clicking the "Launch Binder" button in the project description or from the links provided.
+## 🚀 Explore My Projects
 
-## Contact Information
+Discover a variety of projects where I apply **Data Science** and **AI** to **Real Estate** and **Finance**. Visit my [Project Portfolio](https://jclopezsds.github.io/) to view detailed descriptions, interactive demos, and comprehensive documentation.
+
+---
+
+## 📫 Contact Me
+
 I am always open to collaboration and new opportunities. Feel free to reach out to me through the following channels:
 
 - **Email**: [jclopezs@uniandes.edu.co](mailto:jclopezs@uniandes.edu.co)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
-- **Kaggle**: [Your Kaggle Profile](https://www.kaggle.com/your-profile)
+- **LinkedIn**: [linkedin.com/in/julian-lopez](https://www.linkedin.com/in/julian-lopez-82a3a432a/)
+- **Kaggle**: [kaggle.com/jclopezs](https://www.kaggle.com/jclopezs)
 
-## Let's Connect!
+---
+
+## 🤝 Let's Connect!
+
 I am passionate about data science and always eager to connect with like-minded professionals. Let's collaborate and create something amazing together!
 
 ---
 
-*“Data is the new oil.” – Clive Humby*
+> *“Data is the new oil.” – Clive Humby*
+
+---
+
+## 📈 GitHub Stats
+
+![Julián's GitHub stats](https://github-readme-stats.vercel.app/api?username=jclopezsDS&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jclopezsDS&layout=compact&theme=radical)
