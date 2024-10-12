@@ -276,38 +276,24 @@ layout: default  # This indicates it will use the default layout
             <li>
                 <strong>Deployment Scripts:</strong>
                 <ul>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/Docs/deploy_application_firewall.sh" target="_blank">deploy_application_firewall.sh</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/Docs/setup_bigtable_storage.sh" target="_blank">setup_bigtable_storage.sh</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/Docs/setup_compute_environment.sh" target="_blank">setup_compute_environment.sh</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/cloudShell" target="_blank">Cloud Shelll</a></li>
                 </ul>
             </li>
             <li>
                 <strong>SQL Queries:</strong>
                 <ul>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/10000BTCPizzaPurchase.sql" target="_blank">10000BTCPizzaPurchase.sql</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/10000BTCPizzaPurchaseAddress.sql" target="_blank">10000BTCPizzaPurchaseAddress.sql</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/194993BTCTransaction.sql" target="_blank">194993BTCTransaction.sql</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/bitcoin.sql" target="_blank">bitcoin.sql</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/dashGiniCoefficient.sql" target="_blank">dashGiniCoefficient.sql</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/dogecoin.sql" target="_blank">dogecoin.sql</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/sql" target="_blank">SQL</a></li>
                 </ul>
             </li>
             <li>
                 <strong>Visualizations:</strong>
                 <ul>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/10000BTCFor2Pizzas.png" target="_blank">10000BTCFor2Pizzas.png</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/194993BTCTransaction.png" target="_blank">194993BTCTransaction.png</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCBalanceBreakdown.png" target="_blank">BTCBalanceBreakdown.png</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCTradeTracker.gif" target="_blank">BTCTradeTracker.gif</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DASHGiniCoeficient.png" target="_blank">DASHGiniCoeficient.png</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DataFlow.png" target="_blank">DataFlow.png</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/PizzaTransactionAddressBalance.png" target="_blank">PizzaTransactionAddressBalance.png</a></li>
-                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/Top10DOGEBalance.png" target="_blank">Top10DOGEBalance.png</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/visuals" target="_blank">Visuals</a></li>
                 </ul>
             </li>
         </ul>
     
-        <p><strong>System Architecture:</strong></p>
+        <p><strong>Flow Architecture:</strong></p>
         <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DataFlow.png?raw=true" alt="System Architecture Diagram">
     
         <p><strong>Key Visualizations:</strong></p>
@@ -330,48 +316,6 @@ layout: default  # This indicates it will use the default layout
             </li>
         </ul>
     
-        <p><strong>Implementation Steps:</strong></p>
-        <ol>
-            <li>
-                <strong>Data Extraction:</strong>
-                Executed SQL queries in BigQuery to extract relevant data. Created necessary tables (<code>lab.51</code>, <code>lab.52</code>) for specific analyses.
-            </li>
-            <li>
-                <strong>Data Preparation:</strong>
-                Cleaned and formatted data as required for visualization. Aggregated and summarized data to fit visualization needs.
-            </li>
-            <li>
-                <strong>Visualization in Looker Studio:</strong>
-                Connected Looker Studio to the BigQuery project containing the extracted data. Created recommended visualizations using selected dimensions and metrics. Applied best practices for clarity, such as appropriate titles, formatting, and interactive elements.
-            </li>
-            <li>
-                <strong>Dashboard Assembly:</strong>
-                Organized visualizations into a coherent dashboard. Ensured each visualization is clearly labeled and provides valuable insights. Implemented interactive filters and controls for dynamic data exploration.
-            </li>
-        </ol>
-    
-        <p><strong>System Architecture:</strong></p>
-        <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DataFlow.png?raw=true" alt="System Architecture">
-    
-        <p><strong>Key Visualizations:</strong></p>
-        <ul>
-            <li>
-                <strong>Top 10 Dogecoin Addresses by Balance:</strong>
-                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/Top10DOGEBalance.png?raw=true" alt="Top 10 Dogecoin Addresses by Balance">
-            </li>
-            <li>
-                <strong>Daily Gini Coefficient of Dash Supply:</strong>
-                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DASHGiniCoeficient.png?raw=true" alt="Daily Gini Coefficient of Dash Supply">
-            </li>
-            <li>
-                <strong>Mysterious 194,993 BTC Bitcoin Transaction:</strong>
-                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/194993BTCTransaction.png?raw=true" alt="Mysterious 194,993 BTC Bitcoin Transaction">
-            </li>
-            <li>
-                <strong>BTC Trade Tracker:</strong>
-                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCTradeTracker.gif?raw=true" alt="BTC Trade Tracker">
-            </li>
-        </ul>
     </div>
     
     <h2>Skills</h2>
