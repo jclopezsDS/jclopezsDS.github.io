@@ -20,13 +20,29 @@ layout: default  # This indicates it will use the default layout
         }
         .project {
             margin-bottom: 20px;
-            padding: 10px;
+            padding: 15px;
             background: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+        .project img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
         .skills, .interests {
             margin-top: 20px;
+        }
+        .project ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .project a {
+            color: #0072C6;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -39,177 +55,97 @@ layout: default  # This indicates it will use the default layout
     <div class="project">
         <h3>Transforming SEC Filings into Actionable Insights with Neo4j and LangChain</h3>
     
-        <p><strong>Project Overview:</strong></p>
-        <p>
-            Developed an innovative retrieval-augmented generation system that converts unstructured financial data from the SEC's EDGAR database into a structured, queryable knowledge graph. Leveraging advanced natural language processing and graph database technologies, this project enhances financial analysis and streamlines regulatory compliance monitoring.
-        </p>
+        <p><strong>Overview:</strong> Developed a retrieval-augmented generation system that converts unstructured financial data from the SEC's EDGAR database into a structured knowledge graph, enhancing financial analysis and regulatory compliance monitoring.</p>
     
-        <p><strong>Project Highlights:</strong></p>
+        <p><strong>Highlights:</strong></p>
         <ul>
-            <li>
-                <strong>Data Processing & Embedding:</strong>
-                Processed and segmented raw text from JSON and CSV documents, applying OpenAI embeddings for semantic analysis.
-            </li>
-            <li>
-                <strong>Knowledge Graph Construction:</strong>
-                Built a comprehensive knowledge graph in Neo4j, representing financial entities and their interrelationships.
-            </li>
-            <li>
-                <strong>Advanced Retrieval Techniques:</strong>
-                Implemented similarity searches and complex queries, enabling context-aware information retrieval.
-            </li>
-            <li>
-                <strong>Enhanced Question Answering:</strong>
-                Developed a retrieval-augmented question-answering pipeline using LangChain, improving response accuracy and relevance.
-            </li>
-            <li>
-                <strong>Graph Augmentation:</strong>
-                Incorporated geographic and investor information to enrich the knowledge graph, enhancing the depth and performance of data retrieval.
-            </li>
+            <li>Processed and embedded raw financial data using OpenAI embeddings.</li>
+            <li>Constructed a comprehensive knowledge graph in Neo4j.</li>
+            <li>Implemented advanced retrieval and question-answering pipelines with LangChain.</li>
         </ul>
     
         <p><strong>Impact:</strong></p>
         <ul>
-            <li>
-                <strong>Empowered Financial Analysts:</strong>
-                Enabled deeper insights into company filings and investor behaviors, facilitating better decisions.
-            </li>
-            <li>
-                <strong>Streamlined Compliance Monitoring:</strong>
-                Improved accessibility and analyzability of SEC filings, aiding in early detection of compliance issues.
-            </li>
+            <li>Enabled deeper insights for financial analysts.</li>
+            <li>Streamlined compliance monitoring processes.</li>
         </ul>
     
-        <p><strong>Technologies & Skills:</strong> Python, LangChain, Neo4j, OpenAI API, Natural Language Processing, Data Modeling, Graph Databases.</p>
+        <p><strong>Technologies:</strong> Python, LangChain, Neo4j, OpenAI API, NLP, Graph Databases.</p>
     
-        <p><strong>Project Artifacts:</strong> Explore the detailed project notebooks:</p>
+        <p><strong>Explore More:</strong></p>
         <ul>
-            <li>
-                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGFromRawText.ipynb">
-                    Retrieval-Augmented Generation from Raw Text
-                </a>
-            </li>
-            <li>
-                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithWindowRetriever.ipynb">
-                    Introduced links between nodes, utilizing a context window to enhance retrieval queries.
-                </a>
-            </li>
-            <li>
-                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithInvestorsInformation.ipynb">
-                    Added investor data to enrich the knowledge graph.
-                </a>
-            </li>
-            <li>
-                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithFullInformation.ipynb">
-                    Expanded the graph by incorporating geographical information of companies and investors to provide deeper insights.
-                </a>
-            </li>
+            <li><a href="https://github.com/jclopezsDS/RAG-from-KG" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGFromRawText.ipynb" target="_blank">Project Notebooks</a></li>
         </ul>
     </div>
     
     <div class="project">
         <h3>Automating Complex Business Processes with Multi-Agent Systems</h3>
     
-        <p><strong>Project Overview:</strong></p>
-        <p>
-            Engineered a sophisticated multi-agent system leveraging the open-source crewAI library to automate complex business processes. By enabling collaboration among specialized AI agents, the project significantly enhances operational efficiency and task execution.
-        </p>
+        <p><strong>Overview:</strong> Engineered a multi-agent system using the crewAI library to automate complex business processes, enhancing operational efficiency through collaboration among specialized AI agents.</p>
     
-        <p><strong>Project Highlights:</strong></p>
+        <p><strong>Highlights:</strong></p>
         <ul>
-            <li>
-                <strong>Specialized Role-playing Agents:</strong>
-                Designed agents with specialized roles for optimized task execution.
-            </li>
-            <li>
-                <strong>Advanced Memory Management:</strong>
-                Implemented short-term, long-term, and shared memory capabilities to improve agent performance.
-            </li>
-            <li>
-                <strong>Custom Tool Assignment:</strong>
-                Developed custom tools for agents, including web search functionalities.
-            </li>
-            <li>
-                <strong>Robust Error Handling:</strong>
-                Established guardrails for managing errors and preventing infinite loops.
-            </li>
-            <li>
-                <strong>Efficient Agent Cooperation:</strong>
-                Orchestrated tasks to be performed in series, parallel, and hierarchical structures.
-            </li>
+            <li>Designed specialized role-playing agents for optimized task execution.</li>
+            <li>Implemented advanced memory management and error handling.</li>
+            <li>Developed custom tools for agents, including web search functionalities.</li>
         </ul>
     
         <p><strong>Impact:</strong></p>
         <ul>
-            <li>
-                <strong>Enhanced Operational Efficiency:</strong>
-                Reduced task processing time by automating complex processes with collaborative AI agents.
-            </li>
-            <li>
-                <strong>Improved Reliability:</strong>
-                Increased system robustness through advanced error handling and memory management.
-            </li>
+            <li>Increased operational efficiency by automating complex tasks.</li>
+            <li>Enhanced system reliability through robust error handling.</li>
         </ul>
     
-        <p><strong>Technologies & Skills:</strong> Python, crewAI library, Multi-Agent Systems, AI Programming, Memory Management, Error Handling.</p>
+        <p><strong>Technologies:</strong> Python, crewAI, Multi-Agent Systems, AI Programming.</p>
     
-        <p><strong>Applications & Notebooks:</strong></p>
+        <p><strong>Explore More:</strong></p>
         <ul>
-            <li>
-                <strong>Technical Article Research and Writing:</strong>
-                Automated the research and writing of technical articles on advanced topics.
-                <ul>
-                    <li>Quantum Computing in Financial Modeling and Real Estate Optimization</li>
-                    <li>Neuromorphic Computing in Financial Modeling</li>
-                    <li>Synthetic Biology for Sustainable Building Materials</li>
-                    <li>Metamaterials for Smart Infrastructure</li>
-                    <li>Hyper-personalized AI Assistants for Financial Management</li>
-                </ul>
-                <p>
-                    <a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/research%26writeArticle.ipynb">
-                        View Notebook: Automated Technical Article Generation
-                    </a>
-                </p>
-            </li>
-            <li>
-                <strong>Customer Support Automation:</strong>
-                Automated responses and management of customer inquiries to enhance support efficiency.
-                <p>
-                    <a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/customerSupport.ipynb">
-                        View Notebook: Customer Support Automation
-                    </a>
-                </p>
-            </li>
-            <li>
-                <strong>Financial Event Planning:</strong>
-                Streamlined the planning of a hypothetical financial event through agent collaboration.
-                <ul>
-                    <li>Conducted venue search using real web data to identify available locations.</li>
-                    <li>Generated a marketing activities report proposing strategies for investor engagement.</li>
-                </ul>
-                <p>
-                    <a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/eventPlanning.ipynb">
-                        View Notebook: Financial Event Planning Automation
-                    </a>
-                </p>
-            </li>
-            <li>
-                <strong>Agent Collaboration for Financial Analysis:</strong>
-                Facilitated collaborative analysis of NASDAQ-100 trading strategies.
-                <ul>
-                    <li>Processed inputs related to trading strategies, capital, and risk tolerance.</li>
-                    <li>Produced a comprehensive risk analysis report with recommendations for risk mitigation.</li>
-                </ul>
-                <p>
-                    <a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/tradingAnalysisReport.ipynb">
-                        View Notebook: Collaborative Financial Analysis
-                    </a>
-                </p>
-            </li>
+            <li><a href="https://github.com/jclopezsDS/multi-ai-agent-systems" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/research%26writeArticle.ipynb" target="_blank">Project Notebooks</a></li>
         </ul>
     </div>
 
-
+    <!-- Nuevo Proyecto Añadido -->
+    <div class="project">
+        <h3>Real-Time Cryptocurrency Exchange Operations Tracking with Google Cloud Platform</h3>
+    
+        <p><strong>Overview:</strong> Developed a real-time tracking and visualization system for cryptocurrency exchange operations using Google Cloud Platform (GCP) services. Integrated Compute Engine, Bigtable, Dataflow, and Cloud Storage with a Flask-based frontend for dynamic data visualization.</p>
+    
+        <p><strong>Highlights:</strong></p>
+        <ul>
+            <li>Implemented real-time data collection from various cryptocurrency exchanges.</li>
+            <li>Utilized Google Cloud Bigtable for scalable and efficient data storage.</li>
+            <li>Processed and transformed data in real-time using Google Cloud Dataflow.</li>
+            <li>Developed a Flask-based web interface for dynamic visualization of cryptocurrency operations.</li>
+            <li>Leveraged GCP's managed services to ensure scalability, security, and ease of maintenance.</li>
+        </ul>
+    
+        <p><strong>Impact:</strong></p>
+        <ul>
+            <li>Enabled real-time insights into cryptocurrency exchange operations for timely decision-making.</li>
+            <li>Provided a scalable solution capable of handling increasing data volumes efficiently.</li>
+        </ul>
+    
+        <p><strong>Technologies:</strong> Google Cloud Platform (Compute Engine, Bigtable, Dataflow, Cloud Storage), Python, Flask, SQL.</p>
+    
+        <p><strong>Explore More:</strong></p>
+        <ul>
+            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/Docs" target="_blank">Deployment Scripts</a></li>
+            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/sql" target="_blank">SQL Queries</a></li>
+            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/visuals" target="_blank">Visualizations</a></li>
+        </ul>
+    
+        <p><strong>Key Visualizations:</strong></p>
+        <ul>
+            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/Top10DOGEBalance.png?raw=true" target="_blank">Top 10 Dogecoin Addresses by Balance</a></li>
+            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DASHGiniCoeficient.png?raw=true" target="_blank">Daily Gini Coefficient of Dash Supply</a></li>
+            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/194993BTCTransaction.png?raw=true" target="_blank">Mysterious 194,993 BTC Bitcoin Transaction</a></li>
+            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCTradeTracker.gif?raw=true" target="_blank">BTC Trade Tracker</a></li>
+        </ul>
+    </div>
+    
     <h2>Skills</h2>
     <ul>
         <li>Languages: Python, HTML, JavaScript, Visual Basic, SQL, DDL, DML, DAX (Power BI)</li>
@@ -228,8 +164,8 @@ layout: default  # This indicates it will use the default layout
     <p>For collaboration or inquiries, feel free to reach out:</p>
     <ul>
         <li>Email: <a href="mailto:jclopezs@uniandes.edu.co">jclopezs@uniandes.edu.co</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/julian-lopez-82a3a432a/">LinkedIn Profile</a></li>
-        <li>Kaggle: <a href="https://www.kaggle.com/your-profile">Kaggle Profile</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/julian-lopez-82a3a432a/" target="_blank">LinkedIn Profile</a></li>
+        <li>Kaggle: <a href="https://www.kaggle.com/julianlopezsanchez" target="_blank">Kaggle Profile</a></li>
     </ul>
 </body>
 </html>
