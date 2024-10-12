@@ -20,29 +20,22 @@ layout: default  # This indicates it will use the default layout
         }
         .project {
             margin-bottom: 20px;
-            padding: 15px;
+            padding: 10px;
             background: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .skills, .interests {
+            margin-top: 20px;
         }
         .project img {
             max-width: 100%;
             height: auto;
             margin-top: 10px;
         }
-        .skills, .interests {
-            margin-top: 20px;
-        }
         .project ul {
             list-style-type: disc;
             margin-left: 20px;
-        }
-        .project a {
-            color: #0072C6;
-            text-decoration: none;
-        }
-        .project a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -55,94 +48,329 @@ layout: default  # This indicates it will use the default layout
     <div class="project">
         <h3>Transforming SEC Filings into Actionable Insights with Neo4j and LangChain</h3>
     
-        <p><strong>Overview:</strong> Developed a retrieval-augmented generation system that converts unstructured financial data from the SEC's EDGAR database into a structured knowledge graph, enhancing financial analysis and regulatory compliance monitoring.</p>
+        <p><strong>Project Overview:</strong></p>
+        <p>
+            Developed an innovative retrieval-augmented generation system that converts unstructured financial data from the SEC's EDGAR database into a structured, queryable knowledge graph. Leveraging advanced natural language processing and graph database technologies, this project enhances financial analysis and streamlines regulatory compliance monitoring.
+        </p>
     
-        <p><strong>Highlights:</strong></p>
+        <p><strong>Project Highlights:</strong></p>
         <ul>
-            <li>Processed and embedded raw financial data using OpenAI embeddings.</li>
-            <li>Constructed a comprehensive knowledge graph in Neo4j.</li>
-            <li>Implemented advanced retrieval and question-answering pipelines with LangChain.</li>
+            <li>
+                <strong>Data Processing & Embedding:</strong>
+                Processed and segmented raw text from JSON and CSV documents, applying OpenAI embeddings for semantic analysis.
+            </li>
+            <li>
+                <strong>Knowledge Graph Construction:</strong>
+                Built a comprehensive knowledge graph in Neo4j, representing financial entities and their interrelationships.
+            </li>
+            <li>
+                <strong>Advanced Retrieval Techniques:</strong>
+                Implemented similarity searches and complex queries, enabling context-aware information retrieval.
+            </li>
+            <li>
+                <strong>Enhanced Question Answering:</strong>
+                Developed a retrieval-augmented question-answering pipeline using LangChain, improving response accuracy and relevance.
+            </li>
+            <li>
+                <strong>Graph Augmentation:</strong>
+                Incorporated geographic and investor information to enrich the knowledge graph, enhancing the depth and performance of data retrieval.
+            </li>
         </ul>
     
         <p><strong>Impact:</strong></p>
         <ul>
-            <li>Enabled deeper insights for financial analysts.</li>
-            <li>Streamlined compliance monitoring processes.</li>
+            <li>
+                <strong>Empowered Financial Analysts:</strong>
+                Enabled deeper insights into company filings and investor behaviors, facilitating better decisions.
+            </li>
+            <li>
+                <strong>Streamlined Compliance Monitoring:</strong>
+                Improved accessibility and analyzability of SEC filings, aiding in early detection of compliance issues.
+            </li>
         </ul>
     
-        <p><strong>Technologies:</strong> Python, LangChain, Neo4j, OpenAI API, NLP, Graph Databases.</p>
+        <p><strong>Technologies & Skills:</strong> Python, LangChain, Neo4j, OpenAI API, Natural Language Processing, Data Modeling, Graph Databases.</p>
     
-        <p><strong>Explore More:</strong></p>
+        <p><strong>Project Artifacts:</strong> Explore the detailed project notebooks:</p>
         <ul>
-            <li><a href="https://github.com/jclopezsDS/RAG-from-KG" target="_blank">GitHub Repository</a></li>
-            <li><a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGFromRawText.ipynb" target="_blank">Project Notebooks</a></li>
+            <li>
+                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGFromRawText.ipynb" target="_blank">
+                    Retrieval-Augmented Generation from Raw Text
+                </a>
+            </li>
+            <li>
+                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithWindowRetriever.ipynb" target="_blank">
+                    Introduced links between nodes, utilizing a context window to enhance retrieval queries.
+                </a>
+            </li>
+            <li>
+                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithInvestorsInformation.ipynb" target="_blank">
+                    Added investor data to enrich the knowledge graph.
+                </a>
+            </li>
+            <li>
+                <a href="https://nbviewer.org/github/jclopezsDS/RAG-from-KG/blob/main/RAGWithFullInformation.ipynb" target="_blank">
+                    Expanded the graph by incorporating geographical information of companies and investors to provide deeper insights.
+                </a>
+            </li>
         </ul>
     </div>
     
     <div class="project">
         <h3>Automating Complex Business Processes with Multi-Agent Systems</h3>
     
-        <p><strong>Overview:</strong> Engineered a multi-agent system using the crewAI library to automate complex business processes, enhancing operational efficiency through collaboration among specialized AI agents.</p>
+        <p><strong>Project Overview:</strong></p>
+        <p>
+            Engineered a sophisticated multi-agent system leveraging the open-source crewAI library to automate complex business processes. By enabling collaboration among specialized AI agents, the project significantly enhances operational efficiency and task execution.
+        </p>
     
-        <p><strong>Highlights:</strong></p>
+        <p><strong>Project Highlights:</strong></p>
         <ul>
-            <li>Designed specialized role-playing agents for optimized task execution.</li>
-            <li>Implemented advanced memory management and error handling.</li>
-            <li>Developed custom tools for agents, including web search functionalities.</li>
+            <li>
+                <strong>Specialized Role-playing Agents:</strong>
+                Designed agents with specialized roles for optimized task execution.
+            </li>
+            <li>
+                <strong>Advanced Memory Management:</strong>
+                Implemented short-term, long-term, and shared memory capabilities to improve agent performance.
+            </li>
+            <li>
+                <strong>Custom Tool Assignment:</strong>
+                Developed custom tools for agents, including web search functionalities.
+            </li>
+            <li>
+                <strong>Robust Error Handling:</strong>
+                Established guardrails for managing errors and preventing infinite loops.
+            </li>
+            <li>
+                <strong>Efficient Agent Cooperation:</strong>
+                Orchestrated tasks to be performed in series, parallel, and hierarchical structures.
+            </li>
         </ul>
     
         <p><strong>Impact:</strong></p>
         <ul>
-            <li>Increased operational efficiency by automating complex tasks.</li>
-            <li>Enhanced system reliability through robust error handling.</li>
+            <li>
+                <strong>Enhanced Operational Efficiency:</strong>
+                Reduced task processing time by automating complex processes with collaborative AI agents.
+            </li>
+            <li>
+                <strong>Improved Reliability:</strong>
+                Increased system robustness through advanced error handling and memory management.
+            </li>
         </ul>
     
-        <p><strong>Technologies:</strong> Python, crewAI, Multi-Agent Systems, AI Programming.</p>
+        <p><strong>Technologies & Skills:</strong> Python, crewAI library, Multi-Agent Systems, AI Programming, Memory Management, Error Handling.</p>
     
-        <p><strong>Explore More:</strong></p>
+        <p><strong>Applications & Notebooks:</strong></p>
         <ul>
-            <li><a href="https://github.com/jclopezsDS/multi-ai-agent-systems" target="_blank">GitHub Repository</a></li>
-            <li><a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/research%26writeArticle.ipynb" target="_blank">Project Notebooks</a></li>
+            <li>
+                <strong>Technical Article Research and Writing:</strong>
+                Automated the research and writing of technical articles on advanced topics.
+                <ul>
+                    <li>Quantum Computing in Financial Modeling and Real Estate Optimization</li>
+                    <li>Neuromorphic Computing in Financial Modeling</li>
+                    <li>Synthetic Biology for Sustainable Building Materials</li>
+                    <li>Metamaterials for Smart Infrastructure</li>
+                    <li>Hyper-personalized AI Assistants for Financial Management</li>
+                </ul>
+                <p>
+                    <a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/research%26writeArticle.ipynb" target="_blank">
+                        View Notebook: Automated Technical Article Generation
+                    </a>
+                </p>
+            </li>
+            <li>
+                <strong>Customer Support Automation:</strong>
+                Automated responses and management of customer inquiries to enhance support efficiency.
+                <p>
+                    <a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/customerSupport.ipynb" target="_blank">
+                        View Notebook: Customer Support Automation
+                    </a>
+                </p>
+            </li>
+            <li>
+                <strong>Financial Event Planning:</strong>
+                Streamlined the planning of a hypothetical financial event through agent collaboration.
+                <ul>
+                    <li>Conducted venue search using real web data to identify available locations.</li>
+                    <li>Generated a marketing activities report proposing strategies for investor engagement.</li>
+                </ul>
+                <p>
+                    <a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/eventPlanning.ipynb" target="_blank">
+                        View Notebook: Financial Event Planning Automation
+                    </a>
+                </p>
+            </li>
+            <li>
+                <strong>Agent Collaboration for Financial Analysis:</strong>
+                Facilitated collaborative analysis of NASDAQ-100 trading strategies.
+                <ul>
+                    <li>Processed inputs related to trading strategies, capital, and risk tolerance.</li>
+                    <li>Produced a comprehensive risk analysis report with recommendations for risk mitigation.</li>
+                </ul>
+                <p>
+                    <a href="https://nbviewer.org/github/jclopezsDS/multi-ai-agent-systems/blob/main/tradingAnalysisReport.ipynb" target="_blank">
+                        View Notebook: Collaborative Financial Analysis
+                    </a>
+                </p>
+            </li>
         </ul>
     </div>
 
-    <!-- Nuevo Proyecto Añadido -->
+    <!-- New Project Added Below -->
     <div class="project">
         <h3>Real-Time Cryptocurrency Exchange Operations Tracking with Google Cloud Platform</h3>
     
-        <p><strong>Overview:</strong> Developed a real-time tracking and visualization system for cryptocurrency exchange operations using Google Cloud Platform (GCP) services. Integrated Compute Engine, Bigtable, Dataflow, and Cloud Storage with a Flask-based frontend for dynamic data visualization.</p>
+        <p><strong>Project Overview:</strong></p>
+        <p>
+            This project aims to develop a system that tracks and visualizes real-time cryptocurrency exchange operations using Google Cloud Platform (GCP) services. The solution integrates multiple GCP services, including Compute Engine, Bigtable, Dataflow, and Cloud Storage, along with a Flask-based frontend application for data visualization.
+        </p>
     
-        <p><strong>Highlights:</strong></p>
+        <p><strong>Project Highlights:</strong></p>
         <ul>
-            <li>Implemented real-time data collection from various cryptocurrency exchanges.</li>
-            <li>Utilized Google Cloud Bigtable for scalable and efficient data storage.</li>
-            <li>Processed and transformed data in real-time using Google Cloud Dataflow.</li>
-            <li>Developed a Flask-based web interface for dynamic visualization of cryptocurrency operations.</li>
-            <li>Leveraged GCP's managed services to ensure scalability, security, and ease of maintenance.</li>
+            <li>
+                <strong>Real-Time Data Collection:</strong>
+                Captured real-time cryptocurrency exchange operations data from various exchange sources.
+            </li>
+            <li>
+                <strong>Scalable Storage:</strong>
+                Utilized Google Cloud Bigtable to efficiently store large volumes of cryptocurrency transaction data.
+            </li>
+            <li>
+                <strong>Data Processing:</strong>
+                Implemented Google Cloud Dataflow to process and transform data in real-time.
+            </li>
+            <li>
+                <strong>Dynamic Visualization:</strong>
+                Developed a web interface using Flask to visualize real-time operations.
+            </li>
+            <li>
+                <strong>Managed Infrastructure:</strong>
+                Leveraged GCP's managed services to ensure scalability, security, and ease of maintenance.
+            </li>
         </ul>
     
         <p><strong>Impact:</strong></p>
         <ul>
-            <li>Enabled real-time insights into cryptocurrency exchange operations for timely decision-making.</li>
-            <li>Provided a scalable solution capable of handling increasing data volumes efficiently.</li>
+            <li>
+                <strong>Enhanced Data Monitoring:</strong>
+                Provided real-time insights into cryptocurrency exchange operations, enabling timely decision-making.
+            </li>
+            <li>
+                <strong>Scalable Solution:</strong>
+                Ensured the system can handle increasing data volumes efficiently through scalable GCP services.
+            </li>
         </ul>
     
-        <p><strong>Technologies:</strong> Google Cloud Platform (Compute Engine, Bigtable, Dataflow, Cloud Storage), Python, Flask, SQL.</p>
+        <p><strong>Technologies & Skills:</strong> Google Cloud Platform (Compute Engine, Bigtable, Dataflow, Cloud Storage), Python, Flask, SQL, Data Processing, Real-Time Data Visualization.</p>
     
-        <p><strong>Explore More:</strong></p>
+        <p><strong>Project Artifacts:</strong> Access the project resources and visualizations below:</p>
         <ul>
-            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker" target="_blank">GitHub Repository</a></li>
-            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/Docs" target="_blank">Deployment Scripts</a></li>
-            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/sql" target="_blank">SQL Queries</a></li>
-            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/tree/main/visuals" target="_blank">Visualizations</a></li>
+            <li>
+                <strong>Repository Link:</strong>
+                <a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker" target="_blank">
+                    GCP-Crypto-Explorer-Tracker Repository
+                </a>
+            </li>
+            <li>
+                <strong>Deployment Scripts:</strong>
+                <ul>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/Docs/deploy_application_firewall.sh" target="_blank">deploy_application_firewall.sh</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/Docs/setup_bigtable_storage.sh" target="_blank">setup_bigtable_storage.sh</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/Docs/setup_compute_environment.sh" target="_blank">setup_compute_environment.sh</a></li>
+                </ul>
+            </li>
+            <li>
+                <strong>SQL Queries:</strong>
+                <ul>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/10000BTCPizzaPurchase.sql" target="_blank">10000BTCPizzaPurchase.sql</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/10000BTCPizzaPurchaseAddress.sql" target="_blank">10000BTCPizzaPurchaseAddress.sql</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/194993BTCTransaction.sql" target="_blank">194993BTCTransaction.sql</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/bitcoin.sql" target="_blank">bitcoin.sql</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/dashGiniCoefficient.sql" target="_blank">dashGiniCoefficient.sql</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/sql/dogecoin.sql" target="_blank">dogecoin.sql</a></li>
+                </ul>
+            </li>
+            <li>
+                <strong>Visualizations:</strong>
+                <ul>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/10000BTCFor2Pizzas.png" target="_blank">10000BTCFor2Pizzas.png</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/194993BTCTransaction.png" target="_blank">194993BTCTransaction.png</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCBalanceBreakdown.png" target="_blank">BTCBalanceBreakdown.png</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCTradeTracker.gif" target="_blank">BTCTradeTracker.gif</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DASHGiniCoeficient.png" target="_blank">DASHGiniCoeficient.png</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DataFlow.png" target="_blank">DataFlow.png</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/PizzaTransactionAddressBalance.png" target="_blank">PizzaTransactionAddressBalance.png</a></li>
+                    <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/Top10DOGEBalance.png" target="_blank">Top10DOGEBalance.png</a></li>
+                </ul>
+            </li>
         </ul>
+    
+        <p><strong>System Architecture:</strong></p>
+        <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DataFlow.png?raw=true" alt="System Architecture Diagram">
     
         <p><strong>Key Visualizations:</strong></p>
         <ul>
-            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/Top10DOGEBalance.png?raw=true" target="_blank">Top 10 Dogecoin Addresses by Balance</a></li>
-            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DASHGiniCoeficient.png?raw=true" target="_blank">Daily Gini Coefficient of Dash Supply</a></li>
-            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/194993BTCTransaction.png?raw=true" target="_blank">Mysterious 194,993 BTC Bitcoin Transaction</a></li>
-            <li><a href="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCTradeTracker.gif?raw=true" target="_blank">BTC Trade Tracker</a></li>
+            <li>
+                <strong>Top 10 Dogecoin Addresses by Balance:</strong>
+                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/Top10DOGEBalance.png?raw=true" alt="Top 10 Dogecoin Addresses by Balance">
+            </li>
+            <li>
+                <strong>Daily Gini Coefficient of Dash Supply:</strong>
+                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DASHGiniCoeficient.png?raw=true" alt="Daily Gini Coefficient of Dash Supply">
+            </li>
+            <li>
+                <strong>Mysterious 194,993 BTC Bitcoin Transaction:</strong>
+                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/194993BTCTransaction.png?raw=true" alt="Mysterious 194,993 BTC Bitcoin Transaction">
+            </li>
+            <li>
+                <strong>BTC Trade Tracker:</strong>
+                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCTradeTracker.gif?raw=true" alt="BTC Trade Tracker">
+            </li>
+        </ul>
+    
+        <p><strong>Implementation Steps:</strong></p>
+        <ol>
+            <li>
+                <strong>Data Extraction:</strong>
+                Executed SQL queries in BigQuery to extract relevant data. Created necessary tables (<code>lab.51</code>, <code>lab.52</code>) for specific analyses.
+            </li>
+            <li>
+                <strong>Data Preparation:</strong>
+                Cleaned and formatted data as required for visualization. Aggregated and summarized data to fit visualization needs.
+            </li>
+            <li>
+                <strong>Visualization in Looker Studio:</strong>
+                Connected Looker Studio to the BigQuery project containing the extracted data. Created recommended visualizations using selected dimensions and metrics. Applied best practices for clarity, such as appropriate titles, formatting, and interactive elements.
+            </li>
+            <li>
+                <strong>Dashboard Assembly:</strong>
+                Organized visualizations into a coherent dashboard. Ensured each visualization is clearly labeled and provides valuable insights. Implemented interactive filters and controls for dynamic data exploration.
+            </li>
+        </ol>
+    
+        <p><strong>System Architecture:</strong></p>
+        <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DataFlow.png?raw=true" alt="System Architecture">
+    
+        <p><strong>Key Visualizations:</strong></p>
+        <ul>
+            <li>
+                <strong>Top 10 Dogecoin Addresses by Balance:</strong>
+                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/Top10DOGEBalance.png?raw=true" alt="Top 10 Dogecoin Addresses by Balance">
+            </li>
+            <li>
+                <strong>Daily Gini Coefficient of Dash Supply:</strong>
+                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/DASHGiniCoeficient.png?raw=true" alt="Daily Gini Coefficient of Dash Supply">
+            </li>
+            <li>
+                <strong>Mysterious 194,993 BTC Bitcoin Transaction:</strong>
+                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/194993BTCTransaction.png?raw=true" alt="Mysterious 194,993 BTC Bitcoin Transaction">
+            </li>
+            <li>
+                <strong>BTC Trade Tracker:</strong>
+                <img src="https://github.com/jclopezsDS/GCP-Crypto-Explorer-Tracker/blob/main/visuals/BTCTradeTracker.gif?raw=true" alt="BTC Trade Tracker">
+            </li>
         </ul>
     </div>
     
